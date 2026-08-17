@@ -1,0 +1,43 @@
+#!/bin/bash
+# hr — Hermes Router: auto-routes to optimal skill preset
+# Usage: hr "渗透测试这个二进制文件"
+#        hr --details "构建React组件"
+#        hr  (interactive mode)
+
+ROUTER="$HOME/.hermes/scripts/skill-router.py"
+
+if [ $# -eq 0 ]; then
+    # Interactive mode
+    echo "hr — Hermes智能路由"
+    echo "输入任务描述，自动选择最佳skill预设"
+    echo "输入 'q' 退出"
+    echo ""
+    while true; do
+        read -p "> " input
+        [ "$input" = "q" ] && break
+        [ -z "$input" ] && continue
+        
+        preset=$(python3 "$ROUTER" "$input" 2>/dev/null)
+        echo "  → 预设: $preset"
+        echo "  → 启动: hermes --skills $preset"
+        echo ""
+        read -p "  启动? [Y/n] " confirm
+        if [ "$confirm" != "n" ] && [ "$confirm" != "N" ]; then
+            hermes --skills "$preset"
+            break
+        fi
+    done
+else
+    # Direct mode
+    query="$*"
+    
+    # Check for --details flag
+    if [ "$1" = "--details" ]; then
+        python3 "$ROUTER" --details "${@:2}"
+        exit 0
+    fi
+    
+    preset=$(python3 "$ROUTER" "$query" 2>/dev/null)
+    echo "[hr] 路由: $preset"
+    hermes --skills "$preset" chat -q "$query"
+fi

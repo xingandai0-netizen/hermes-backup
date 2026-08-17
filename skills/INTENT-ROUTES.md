@@ -1,0 +1,240 @@
+# Skills Intent Routing Index
+# 237 intent patterns → 299 skill references
+
+- AI产品推荐画布 → recommendation-canvas
+- AI产品路线图 → ai-canvas-product-roadmap
+- AI就绪度评估 → ai-shaped-readiness-advisor
+- AI行业日报 → follow-builders-digest
+- API模型发现 → api-model-discovery
+- API设计/接口设计 → api-and-interface-design, spec-driven-development
+- API配置 → ai-tools-config-guide-verification
+- APK/IPA分析 → reverse-skill-router
+- ASCII艺术 → ascii-creative
+- Agent代码审查 → agent-code-review-swarm
+- Agent初始化/SOUL → bootstrap, full-stack-project-bootstrap
+- Agent编排/协调 → agent-adaptive-coordinator
+- Agent编排设计 → agent-orchestration-advisor
+- Agent联网/抓取 → agent-reach-internet
+- Ansoff增长矩阵 → ansoff-matrix
+- Apple设计 → apple-design
+- CLIP视觉 → clip
+- Computer Use技术 → computer-use-learnings
+- DSPy → dspy
+- DeFi/智能合约审计 → defi-security-research
+- DeepSeek审查 → antoken-deepseek-review-workflow
+- Docker部署 → new-api-operations
+- DrissionPage爬虫 → drission-page-automation
+- Emil设计哲学 → emil-design-eng
+- Epic拆分/假设 → epic-hypothesis, epic-breakdown-advisor
+- Excel数据处理 → excel-data-processor
+- GGUF量化 → gguf
+- GPU云平台 → modal-serverless-gpu
+- GRPO/RL训练 → grpo-rl-training, fine-tuning-with-trl
+- GitHub仓库研究 → github-repo-research
+- GitHub安全工具 → github-security-arsenal
+- GitHub技能学习/集成 → github-skills-integration, github-skills-learner
+- GitHub趋势 → github-trend-monitor
+- Google Stitch → stitch-design
+- Hermes Agent配置 → hermes-agent
+- Issue分流/分类 → triage
+- JS逆向/爬虫 → ai-crawler-reverse-engineering
+- JTBD/用户需求 → jobs-to-be-done
+- Jailbreak/越狱 → godmode, obliteratus
+- Kanban/任务编排 → kanban
+- LLM Wiki知识库 → llm-wiki
+- LangChain Agent → langchain-agent-fundamentals
+- Lean UX画布 → lean-ux-canvas
+- Linear管理 → linear
+- MCP集成 → mcp-integration
+- MLOps工具集 → mlops-toolkit
+- MiMo API集成 → mimo-api-integration
+- Minecraft服务器 → minecraft-modpack-server
+- Next.js问题 → nextjs-cache-troubleshooting
+- Nothing风格 → nothing-design
+- OCR识别 → macos-vision-ocr
+- OKR/目标 → pm-skills-77
+- PDF处理 → ocr-and-documents
+- PEFT/LoRA微调 → peft
+- PESTEL分析 → pestel-delta-monitor, pestel-analysis
+- PM→Director视角 → altitude-horizon-framework
+- PM→Director转型 → director-readiness-advisor
+- PM技能创建 → pm-skill-creator
+- PPT/企划书 → business-proposal-and-pitch-deck
+- PR/合并分支 → create-pr, github-workflow
+- Pokemon游戏 → pokemon-player
+- PyTorch FSDP训练 → pytorch-fsdp
+- React Flow画布编辑器 → react-flow-canvas-editor
+- React动画组件库 → react-bits-ui-library
+- React组件重构 → component-refactoring
+- Roo Code → roo-code-integration
+- SSL证书 → certbot-ssl-management
+- SWOT分析 → swot-analysis
+- SaaS健康诊断 → business-health-diagnostic
+- SaaS指标分析 → saas-revenue-growth-metrics, saas-economics-efficiency-metrics
+- SaaS财务指标 → finance-metrics-quickref
+- Sonner Toast组件 → ask-sonner
+- Spike实验/验证 → spike
+- Spotify → spotify
+- Stable Diffusion生图 → stable-diffusion
+- TRL/RLHF微调 → trl-fine-tuning
+- Twitter/X发帖 → xurl
+- UI/UX Pro Max → ui-ux-pro-max-skill
+- UI基线校验 → baseline-ui
+- UI库选择 → pick-ui-library
+- UI设计/网页设计 → emilkowalski-apple-design, taste-skill, ui-ux-pro-max-enforcement
+- VP/CPO转型 → vp-cpo-readiness-advisor
+- Word/Excel/Office → officecli
+- Word批注提取 → docx-annotation-extractor
+- antokex SEO → antokex-seo-plan
+- antokex运维 → antokex-operations
+- arXiv论文搜索 → academic-research
+- automation/macos-wechat-automation-v2 → macos-wechat-automation-v2
+- automation/macos-wechat-troubleshooting → macos-wechat-troubleshooting
+- automation/wechat-macos-automation → wechat-macos-automation
+- browser-act-skill-forge/browser-act-skill-forge → browser-act-skill-forge
+- creative/creative-ideation → creative-ideation
+- lazygit → lazygit-advanced
+- macOS提醒/备忘 → apple-productivity
+- macOS桌面控制 → macos-computer-use
+- made-to-stick/made-to-stick → made-to-stick
+- mlops/audiocraft → audiocraft
+- mlops/lm-evaluation-harness → lm-evaluation-harness
+- mlops/modal → modal
+- mlops/vllm → vllm
+- p5.js交互 → p5js
+- productivity/derisk-measurement-advisor → derisk-measurement-advisor
+- software-development/ai-website-building-masters → ai-website-building-masters
+- 三方团队协作 → team-collaboration-protocol
+- 上下文压缩 → handoff
+- 上下文工程/Agent配置 → context-engineering
+- 上下文工程诊断 → context-engineering-advisor
+- 中文NLP/文本分析 → chinese-nlp-toolkit
+- 二进制逆向/反编译 → re-toolkit-mcp, shannon-agent-patterns
+- 产品下线/EOL → eol-process, eol-internal-enablement, eol-checklist, eol-message, eol-readiness-advisor, eol-stakeholder-sequence
+- 产品发现/用户调研 → discovery-interview-prep, discovery-process
+- 产品定位 → positioning-statement, positioning-workshop
+- 产品感面试 → product-sense-interview-answer
+- 产品生命周期 → lifecycle-play-advisor, product-lifecycle-plays
+- 仓库分析 → github-repo-deep-analysis, codebase-inspection
+- 代码审查/重构 → code-quality-workflow, code-simplification, anti-sycophancy
+- 代码搜索 → ripgrep-search
+- 代码架构改进 → improve-codebase-architecture
+- 任务完成清理 → task-completion-protocol
+- 优先级排序 → prioritization-advisor
+- 体育赛事分析 → sports-match-research
+- 信息图 → baoyu-infographic
+- 像素艺术 → pixel-art
+- 全局视角/宏观分析 → zoom-out
+- 公司情报分析 → company-intel
+- 公司研究简报 → company-research
+- 写PRD/需求文档 → prd-development, pm-skills-77
+- 写代码/开发功能/构建应用 → superpowers, tdd-bdd, subagent-driven-development
+- 写文档/README → code-documentation
+- 写测试/TDD → tdd-bdd, superpowers
+- 写论文 → academic-paper-workflow, academic-research
+- 写邮件/信件 → bilingual-academic-correspondence, letter-writer, cover-letter
+- 创建skill → skill-creator, write-a-skill
+- 创建动画 → animate
+- 利益相关者管理 → stakeholder-identification, stakeholder-engagement-advisor, stakeholder-mapping
+- 功能投资评估 → feature-investment-advisor
+- 动画/动效 → emilkowalski-apple-design, design-motion-principles
+- 动画代码审查 → review-animations
+- 动画改进/审计 → improve-animations
+- 动画术语查询 → animation-vocabulary
+- 卸载Codex/Claude Code → codex-claude-code-uninstall
+- 原型/原型设计 → prototype, claude-design
+- 原型用户画像 → proto-persona
+- 发现动画机会 → find-animation-opportunities
+- 可观测性/监控 → observability-and-instrumentation
+- 商业模式 → business-proposal-and-pitch-deck
+- 图像分割 → segment-anything-model
+- 图像分割/SAM → segment-anything
+- 图标搜索 → better-icons
+- 图片生成/编辑 → ai-photo-editing, ai-art-workflow
+- 增量实现/渐进交付 → incremental-implementation
+- 多Agent协作 → multi-role-task-execution, agency-agents
+- 头脑风暴 → ideation, idea-refine
+- 子agent开发 → coding-agent-delegation
+- 安全代码修改 → safe-patch-practice
+- 定价包装追踪 → pricing-packaging-tracker
+- 定价策略 → finance-based-pricing-advisor, pm-skills-77
+- 客户旅程地图 → customer-journey-mapping-workshop, customer-journey-map
+- 对接小黄 → xiaohuang-claude-desktop-gui
+- 小白Agent → agent-s-xiaobai
+- 小红书内容 → xiaohongshu-content-creation
+- 小红书发布 → browser-screenshot-to-xiaohongshu
+- 工作坊引导 → workshop-facilitation, user-story-mapping-workshop
+- 市场格局扫描 → market-landscape-scan
+- 市场规模TAM/SAM/SOM → tam-sam-som-calculator
+- 废弃/迁移管理 → deprecation-and-migration
+- 强制咨询小黄 → mandatory-consultation-protocol
+- 微信自动化 → wechat-automation, macos-wechat-automation
+- 性能优化 → performance-optimization
+- 恶意项目/赏金举报 → malicious-project-bounty-research
+- 情报分类/收集 → intel-discipline-advisor
+- 情报收集/OSINT → intelligence-collection-disciplines
+- 找附近餐厅 → find-nearby
+- 技能优先执行协议 → skills-first-execution-protocol
+- 技能编写工作流 → skill-authoring-workflow
+- 技能部署验证 → skill-deployment-verification
+- 拆解为Issue → to-issues
+- 插图 → baoyu-article-illustrator
+- 故事板/用户旅程 → storyboard
+- 教学 → teach
+- 数据可视化 → chart-visualization
+- 文本去AI味/人性化 → humanizer
+- 文档质疑审查 → grill-with-docs
+- 文档驱动开发 → source-driven-development
+- 新闻稿/PR → press-release
+- 有机增长策略 → organic-growth-advisor
+- 机会解决方案树 → opportunity-solution-tree
+- 机器人自动化方案 → wechat-automation-reference
+- 极简模式 → caveman
+- 架构决策记录/ADR → adr-create, adr-index, adr-review, adr-verify
+- 桌面控制 → desktop-control-advanced, macos-computer-use
+- 模型微调/fine-tune → unsloth, axolotl, peft-fine-tuning
+- 模型推理/vLLM → serving-llms-vllm
+- 模型量化/GGUF → gguf-quantization
+- 模板集成/网站逆向 → template-adaptation
+- 每日日志/记录 → daily-log-manager
+- 波特五力分析 → porters-five-forces
+- 浏览器自动化 → browser-use-automation, browser-act
+- 渗透测试/漏洞扫描 → reverse-skill-router, pentest-pipeline, vulnclaw
+- 漫画 → baoyu-comic
+- 生命证明/验证 → pol-probe, pol-probe-advisor
+- 生成PRD文档 → to-prd
+- 用户之声/评论挖掘 → voice-of-customer-miner
+- 用户故事 → user-story, user-story-mapping
+- 用户故事拆分 → user-story-splitting
+- 社交媒体管理 → social-media-automation
+- 秘密读取 → bypass-secret-redaction
+- 竞品battle card → battle-card-builder
+- 竞品分析 → competitive-analysis-process, competitive-research-report
+- 竞品快照 → competitive-research-snapshot
+- 竞品情报监控 → competitive-intel-watch
+- 竞品调研 → competitive-research-report
+- 算命网站/命理 → chinese-fortune-telling-website
+- 结构化输出 → outlines, guidance
+- 综合技能集成 → integrated-skills-system
+- 网页搜索 → anysearch
+- 自主调查协议 → autonomous-investigation
+- 自动化报告生成 → automated-report-generation
+- 自动化收入方案 → automated-revenue-scheme
+- 自我改进 → self-improving-agent
+- 获客渠道评估 → acquisition-channel-advisor
+- 计划制定 → plan, writing-plans
+- 设计技能生态 → design-skills-ecosystem
+- 设计系统/品牌 → open-design, design-taste-system
+- 评估/基准 → evaluating-llms-harness
+- 语音识别 → whisper
+- 请求分析/解读 → incoming-request-advisor
+- 调试/修bug/排查问题 → developer-debugging, diagnose, systematic-debugging
+- 账号池/批量注册 → account-pool-registration
+- 路线图/规划 → roadmap-planning, product-strategy-session
+- 部署/上线/发布 → shipping-and-launch, ci-cd-and-automation
+- 问题定义 → interview-me, grill-me
+- 问题框架/定义 → problem-framing-canvas
+- 问题陈述 → problem-statement
+- 音乐生成 → ai-music-generation
+- 音频生成 → audiocraft-audio-generation
+- 高管入职/VP-CPO → executive-onboarding-playbook
