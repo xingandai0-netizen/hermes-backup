@@ -1,0 +1,51 @@
+# Hermes综合技能集成系统依赖
+# Integrated Skills System Dependencies
+
+# 核心依赖
+pyyaml>=6.0
+python-dotenv>=1.0.0
+requests>=2.28.0
+
+# 数据库依赖
+sqlite3  # Python标准库
+
+# 异步支持
+aiohttp>=3.8.0
+
+# 文件处理
+pathlib  # Python标准库
+shutil  # Python标准库
+tempfile  # Python标准库
+
+# JSON处理
+ujson>=4.0.0
+
+# 正则表达式
+regex>=2023.0.0
+
+# 日期时间
+python-dateutil>=2.8.0
+
+# 日志
+loguru>=0.7.0
+
+# 缓存
+cachetools>=5.3.0
+
+# 进度条
+tqdm>=4.65.0
+
+# 测试
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# 开发工具
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# 可选依赖（根据需要安装）
+# gitpython>=3.1.0  # Git操作
+# docker>=6.0.0  # Docker操作
+# boto3>=1.26.0  # AWS操作
+# paramiko>=3.0.0  # SSH操作

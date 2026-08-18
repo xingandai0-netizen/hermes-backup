@@ -1,0 +1,3676 @@
+[
+  {
+    "name": "macos-computer-use",
+    "category": "apple",
+    "domain": "macOS",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "|",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "apple-productivity",
+    "category": "apple",
+    "domain": "macOS",
+    "functions": [
+      "自动化",
+      "生成",
+      "管理"
+    ],
+    "description": "Apple productivity apps via CLI: Notes (memo), Reminders (remindctl). macOS-only, iCloud-synced.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "sports-match-research",
+    "category": "research",
+    "domain": "研究分析",
+    "functions": [
+      "代码质量",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Structured sports match analysis and betting research. Covers odds aggregation, expert tipster sourcing with verified tr",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "github-repo-research",
+    "category": "research",
+    "domain": "研究分析",
+    "functions": [
+      "代码质量",
+      "搜索",
+      "自动化"
+    ],
+    "description": "系统化搜索、评估和分析GitHub仓库的研究技能。当用户要求搜索特定类型工具、比较多个仓库、评估可行性、或需要深度技术调研时激活。支持多维度评估框架和可行性报告生成。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "competitive-research-report",
+    "category": "research",
+    "domain": "研究分析",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "搜索"
+    ],
+    "description": "竞品调研与可行性分析报告生成。系统化收集多个竞品信息，输出包含技术栈分析、搭建路线、困难评估的完整报告。触发：用户要求调研某类产品/平台、竞品分析、可行性评估、\"我们想做一个类似的X\"。",
+    "triggers": [
+      "用户要求调研某类产品/平台、竞品分析、可行性评估、\"我们想做一个类似的X\"。"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "llm-wiki",
+    "category": "research",
+    "domain": "研究分析",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "搜索"
+    ],
+    "description": "Karpathy's LLM Wiki: build/query interlinked markdown KB.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "academic-research",
+    "category": "research",
+    "domain": "研究分析",
+    "functions": [
+      "代码质量",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Academic research and paper writing. Search arXiv papers, write ML papers for top venues (NeurIPS/ICML/ICLR), literature",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "ai-canvas-product-roadmap",
+    "category": "research",
+    "domain": "研究分析",
+    "functions": [
+      "自动化"
+    ],
+    "description": "商用AI画布产品构建路线图 - 从立项到落地的完整路径",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "integrated-skills-system",
+    "category": "integrated-skills-system",
+    "domain": "integrated-skills-system",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "-",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "team-collaboration-protocol",
+    "category": "integrated-skills-system",
+    "domain": "integrated-skills-system",
+    "functions": [
+      "自动化",
+      "生成",
+      "优化"
+    ],
+    "description": "|",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "skills-first-execution-protocol",
+    "category": "integrated-skills-system",
+    "domain": "integrated-skills-system",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Core execution protocol — skills-first scan + all mandatory behavioral rules. MUST load before ANY task.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "design-skills-ecosystem",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "设计系统",
+      "动画",
+      "文档"
+    ],
+    "description": "设计类Claude Code skills的完整生态系统映射。覆盖taste-skill、ui-skills、design-motion-principles、better-icons、open-design等核心设计技能。包含GitHub",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "design-taste-system",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "生成"
+    ],
+    "description": "-",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "open-design",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "设计系统",
+      "文档",
+      "自动化"
+    ],
+    "description": "大厂设计语言AI文档包。149套企业设计系统(Apple/Material/IBM/Meta/Airbnb等)+123个产出技能。触发：需要参考大厂设计规范、应用特定品牌设计语言、生成符合企业设计标准的界面。",
+    "triggers": [
+      "需要参考大厂设计规范、应用特定品牌设计语言、生成符合企业设计标准的界面。"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "baseline-ui",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "代码质量",
+      "设计系统",
+      "动画"
+    ],
+    "description": "UI基线校验器。验证动画时长、排版层级、组件无障碍、防布局反模式。触发：构建UI组件、审查CSS、React视图样式、设计一致性。",
+    "triggers": [
+      "构建UI组件、审查CSS、React视图样式、设计一致性。"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "design-motion-principles",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "代码质量",
+      "设计系统",
+      "动画"
+    ],
+    "description": "动效设计审计。基于Emil Kowalski/Jakub Krehel/Jhey Tompkins的技术进行动效审查。触发：审查UI动画、过渡效果、hover状态、动效设计。",
+    "triggers": [
+      "审查UI动画、过渡效果、hover状态、动效设计。"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "ui-ux-pro-max-skill",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "UI/UX Pro Max Skill - AI驱动的设计智能系统。包含67种UI风格、161个行业推理规则、161个配色方案、57个字体配对、25种图表类型、22个技术栈支持、99条UX指南。GitHub 102k+ stars。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "emilkowalski-apple-design",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "设计系统",
+      "动画",
+      "自动化"
+    ],
+    "description": "Apple设计品味Skill (25K⭐) — Emil Kowalski的WWDC设计原则+设计工程哲学。10个skill覆盖：Apple流体界面、动画决策框架、Spring物理、组件构建、手势交互、CSS Transform、clip-",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "pick-ui-library",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "animate",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "设计系统"
+    ],
+    "description": "Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it an",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "find-animation-opportunities",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "代码质量",
+      "设计系统",
+      "动画"
+    ],
+    "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it pr",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "improve-animations",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "代码质量",
+      "动画",
+      "自动化"
+    ],
+    "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-cont",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "prototype",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "ask-sonner",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "调试诊断",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loa",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "apple-design",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "设计系统"
+    ],
+    "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "review-animations",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "代码质量",
+      "设计系统",
+      "动画"
+    ],
+    "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. D",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "animation-vocabulary",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "开发框架",
+      "逆向工程",
+      "设计系统"
+    ],
+    "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bou",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "emil-design-eng",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "动画"
+    ],
+    "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible det",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "taste-skill",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "动画"
+    ],
+    "description": "AI品味引擎。消除AI生成的乏味/slop UI，强制使用工程化设计规则。触发：UI设计、网页生成、前端开发、视觉审计。",
+    "triggers": [
+      "UI设计、网页生成、前端开发、视觉审计。"
+    ],
+    "is_routed": true
+  },
+  {
+    "name": "better-icons",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "搜索",
+      "自动化"
+    ],
+    "description": "图标搜索引擎。从200+图标库(Iconify)搜索和获取SVG。触发：需要图标、搜索图标、获取SVG。",
+    "triggers": [
+      "需要图标、搜索图标、获取SVG。"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "ui-ux-pro-max-enforcement",
+    "category": "design",
+    "domain": "设计UI",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "UI/UX设计强制执行技能。基于ui-ux-pro-max-skill(96.7k星)的67种UI风格、161条行业推理规则、161套配色方案、57种字体配对、99条UX规范。触发条件：任何UI改动、网页设计、前端开发、组件创建、样式修改、",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "adr-create",
+    "category": "adr-create",
+    "domain": "adr-create",
+    "functions": [
+      "搜索",
+      "自动化",
+      "生成"
+    ],
+    "description": "Create a new Architecture Decision Record with sequential numbering and AgentDB registration",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "minecraft-modpack-server",
+    "category": "gaming",
+    "domain": "游戏",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "优化"
+    ],
+    "description": "Host modded Minecraft servers (CurseForge, Modrinth).",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "pokemon-player",
+    "category": "gaming",
+    "domain": "游戏",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Play Pokemon via headless emulator + RAM reads.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "xurl",
+    "category": "social-media",
+    "domain": "社交媒体",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "X/Twitter via xurl CLI: post, search, DM, media, v2 API.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "browser-screenshot-to-xiaohongshu",
+    "category": "social-media",
+    "domain": "社交媒体",
+    "functions": [
+      "设计系统",
+      "文档",
+      "自动化"
+    ],
+    "description": "截取网页完整内容并直接发布到小红书。适用于需要截图长页面（如AI回答、文档、聊天记录）并发布到小红书的场景。支持识别滚动容器、分段截图、直接发布。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "stitch-design",
+    "category": "stitch-design",
+    "domain": "stitch-design",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "生成"
+    ],
+    "description": "Official Google Stitch SDK wrapper for OpenClaw. Requires only STITCH_API_KEY. Generate UI screens from text, apply targ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "wechat-automation-reference",
+    "category": "platforms",
+    "domain": "平台集成",
+    "functions": [
+      "自动化",
+      "生成"
+    ],
+    "description": "-",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "social-media-automation",
+    "category": "platforms",
+    "domain": "平台集成",
+    "functions": [
+      "自动化",
+      "社交",
+      "分析"
+    ],
+    "description": "-",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "ai-tools-config-guide-verification",
+    "category": "devops",
+    "domain": "运维部署",
+    "functions": [
+      "测试",
+      "设计系统",
+      "文档"
+    ],
+    "description": "|",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "new-api-operations",
+    "category": "devops",
+    "domain": "运维部署",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "管理"
+    ],
+    "description": "new-api (QuantumNous/new-api) deployment, channel management, and operations. Covers Docker deployment, admin API, chann",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "codex-claude-code-uninstall",
+    "category": "devops",
+    "domain": "运维部署",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Codex CLI 和 Claude Code CLI 完全卸载指南。覆盖npm包、二进制、配置目录、Library缓存/日志/偏好、AppSupport临时文件、Keychain的全量清理。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "antokex-operations",
+    "category": "devops",
+    "domain": "运维部署",
+    "functions": [
+      "调试诊断",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "antokex.com operations: architecture, deployment, troubleshooting, 502 debugging, SPA routing, brand replacement, admin ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "api-model-discovery",
+    "category": "devops",
+    "domain": "运维部署",
+    "functions": [
+      "测试",
+      "搜索",
+      "自动化"
+    ],
+    "description": "自动从API中转站发现可用的图片/视频生成模型。根据模型名和endpoint类型智能匹配。包含异步任务轮询模式和URL规范化。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "kanban",
+    "category": "devops",
+    "domain": "运维部署",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Hermes Kanban multi-agent work queue: orchestrator decomposition playbook, worker lifecycle and pitfalls, task routing, ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "certbot-ssl-management",
+    "category": "devops",
+    "domain": "运维部署",
+    "functions": [
+      "自动化",
+      "管理"
+    ],
+    "description": "使用certbot管理SSL证书，自动配置HTTPS",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "mimo-api-integration",
+    "category": "devops",
+    "domain": "运维部署",
+    "functions": [
+      "文档",
+      "自动化",
+      "生成"
+    ],
+    "description": "|",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "self-improving-agent",
+    "category": "self-improving-agent",
+    "domain": "自我改进",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "-",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "adr-index",
+    "category": "adr-index",
+    "domain": "adr-index",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "文档"
+    ],
+    "description": "Build or rebuild the ADR index + dependency graph by running scripts/import.mjs (handles v3-style and plugin-style ADR f",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "chart-visualization",
+    "category": "chart-visualization",
+    "domain": "chart-visualization",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "This skill should be used when the user wants to visualize data. It intelligently selects the most suitable chart type f",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "find-nearby",
+    "category": "leisure",
+    "domain": "生活娱乐",
+    "functions": [
+      "搜索",
+      "自动化"
+    ],
+    "description": "Find nearby places (restaurants, cafes, bars, pharmacies, etc.) using OpenStreetMap. Works with coordinates, addresses, ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "bootstrap",
+    "category": "bootstrap",
+    "domain": "bootstrap",
+    "functions": [
+      "自动化",
+      "生成"
+    ],
+    "description": "-",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "cover-letter",
+    "category": "cover-letter",
+    "domain": "cover-letter",
+    "functions": [
+      "调试诊断",
+      "自动化",
+      "生成"
+    ],
+    "description": "✉️ 求职信生成器 — cover.sh. Use when you need cover letter capabilities. Triggers on: cover letter.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "agent-code-review-swarm",
+    "category": "agent-code-review-swarm",
+    "domain": "agent-code-review-swarm",
+    "functions": [
+      "代码质量",
+      "自动化",
+      "分析"
+    ],
+    "description": "Agent skill for code-review-swarm - invoke with $agent-code-review-swarm",
+    "triggers": [
+      "true"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "browser-act",
+    "category": "browser-act",
+    "domain": "browser-act",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Browser automation CLI for AI agents. NEVER run browser-act commands directly via Bash — always invoke this skill first.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "defi-security-research",
+    "category": "security",
+    "domain": "安全研究",
+    "functions": [
+      "安全工具",
+      "设计系统",
+      "搜索"
+    ],
+    "description": "DeFi smart contract vulnerability research, abandoned project discovery, and exploit analysis. Use when: auditing smart ",
+    "triggers": [
+      "auditing smart contracts, finding abandoned DeFi projects with residual funds, classifying vulnerabi"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "github-security-arsenal",
+    "category": "security",
+    "domain": "安全研究",
+    "functions": [
+      "测试",
+      "安全工具",
+      "搜索"
+    ],
+    "description": "GitHub攻防兼备安全工具库。覆盖漏洞扫描、WAF防护、蜜罐诱捕、OSINT情报、红队工具、应急响应等全链路。适用于antokex.com等Web中转站的安全建设和对抗能力构建。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "malicious-project-bounty-research",
+    "category": "security",
+    "domain": "安全研究",
+    "functions": [
+      "安全工具",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Analyze malicious/suspicious GitHub projects for bounty reporting. Find closed-loop attack tools, assess technical feasi",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "handoff",
+    "category": "handoff",
+    "domain": "handoff",
+    "functions": [
+      "文档",
+      "自动化"
+    ],
+    "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "bypass-secret-redaction",
+    "category": "bypass-secret-redaction",
+    "domain": "bypass-secret-redaction",
+    "functions": [
+      "自动化"
+    ],
+    "description": "读取被Hermes系统自动脱敏的secrets（API keys, tokens）。当config中security.redact_secrets启用时，cat/grep/sed/subprocess都会将敏感值替换为***。本技能提供绕过",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "skill-deployment-verification",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "",
+    "triggers": [
+      "(1) auditing skill effectiveness after bulk installs, (2) user reports",
+      "代码, 开发, build, api, bug, react, python, 搭建, 实现, 功能"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "idea-refine",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "测试",
+      "设计系统"
+    ],
+    "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "anti-sycophancy",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "搜索"
+    ],
+    "description": "反顺从思维指令 — 防止AI只会顺着用户思考。强制独立分析、主动质疑、发现用户遗漏的问题。适用于所有AI coding agent。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "code-quality-workflow",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "测试"
+    ],
+    "description": "Code quality gates and cleanup: pre-commit verification (security scan, tests, independent reviewer) and post-change sim",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "loopx-control-plane",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "测试",
+      "安全工具"
+    ],
+    "description": "LoopX — 长时间Agent控制平面 (4K⭐)。字节工程师开源，200+小时稳定运行。目标持久化+门控审批+证据链+配额管理+跨Agent交接。适用于多天任务、渗透管线、安全研究。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "template-adaptation",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "逆向工程",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "模板集成与网站逆向完整指南：照搬优先原则、静态HTML serve（rewrite方式）、Webflow→React转换、Next.js集成陷阱、从活网站提取源码。合并了 html-template-integration、static-h",
+    "triggers": [
+      "套用模板、照搬、用这个模板、集成HTML模板、Webflow模板、逆向网站、提取网站源码、复刻网站。\""
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "incremental-implementation",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "测试",
+      "设计系统"
+    ],
+    "description": "Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when yo",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "full-stack-project-bootstrap",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Bootstrap a full-stack web project with parallel frontend/backend delegation. Covers project skeleton creation, dependen",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "api-and-interface-design",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "设计系统",
+      "文档",
+      "自动化"
+    ],
+    "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when cr",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "plan",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "测试"
+    ],
+    "description": "Plan mode: write an actionable markdown plan to .hermes/plans/, no execution. Bite-sized tasks, exact paths, complete co",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "shannon-agent-patterns",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "测试",
+      "安全工具"
+    ],
+    "description": "Shannon AI渗透测试的Agent框架设计模式。多Agent管线、证据验证、浏览器隔离、断点续传。应用这些模式到Hermes工作流。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "skill-optimizer",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "搜索",
+      "自动化",
+      "集成"
+    ],
+    "description": "Skills命中率优化系统 — 整合8个高星GitHub项目的核心算法。渐进式披露+语义路由+工具RAG+去重合并+预设分组+安全扫描+按需发现+图预测。解决skills过多导致agent无法正常使用的问题。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "ci-cd-and-automation",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "测试"
+    ],
+    "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to au",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "context-engineering",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "代码质量",
+      "自动化",
+      "优化"
+    ],
+    "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching betwe",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "react-flow-canvas-editor",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Build canvas-based workflow editors with React Flow v12 + Next.js 14 + Zustand + Tailwind CSS. Covers TypeScript pitfall",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "shipping-and-launch",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "spec-driven-development",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "ai-website-building-masters",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "大神教导AI网站构建技能集合。收录顶级AI编程博主的教学内容、工作流和最佳实践。覆盖Vibe Coding、Cursor、Claude Code、Codex等工具的实战技巧。触发：学习AI编程、Vibe Coding教程、网站开发最佳实践、",
+    "triggers": [
+      "学习AI编程、Vibe Coding教程、网站开发最佳实践、AI编码工作流。\""
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "tdd-bdd",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "代码质量",
+      "测试",
+      "自动化"
+    ],
+    "description": "Test-driven development (TDD) and behavior-driven development (BDD) enforcement. RED-GREEN-REFACTOR cycle, BDD scenario ",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "deprecation-and-migration",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "自动化",
+      "管理"
+    ],
+    "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one i",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "writing-plans",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "测试"
+    ],
+    "description": "Write implementation plans: bite-sized tasks, paths, code.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "spike",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "搜索"
+    ],
+    "description": "Throwaway experiments to validate an idea before build.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "observability-and-instrumentation",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerti",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "superpowers-behavioral",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "调试诊断",
+      "测试",
+      "自动化"
+    ],
+    "description": "Superpowers行为模式补丁 (236K⭐) — 6个Hermes缺失的铁律模式：反合理化表、铁律门控、红线停止器、修复循环上限、账本追踪、模型选择指导。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "interview-me",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "测试",
+      "设计系统"
+    ],
+    "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "code-simplification",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "代码质量",
+      "自动化"
+    ],
+    "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "doubt-driven-development",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "调试诊断",
+      "代码质量",
+      "自动化"
+    ],
+    "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "source-driven-development",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "文档"
+    ],
+    "description": "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "safe-patch-practice",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "管理"
+    ],
+    "description": "安全修改代码的实践规范，避免误删或破坏现有功能。包含\"先研究后动手\"的工作流程。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "performance-optimization",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "优化"
+    ],
+    "description": "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements ex",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "subagent-driven-development",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "测试"
+    ],
+    "description": "Execute plans via delegate_task subagents (2-stage review).",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "antoken-deepseek-review-workflow",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "测试"
+    ],
+    "description": "DeepSeek代码审查工作流 - 分模块发送→收集反馈→逐项修复→重新验证",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "chinese-fortune-telling-website",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "逆向工程",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "搭建中国传统命理算命网站的完整指南。覆盖梅花易数、四柱八字、奇门遁甲、紫微斗数、每日一签等核心功能。包含道教风格UI设计、卦象算法、真灵应宝签数据库、AI解签/解卦集成。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "github-skills-integration",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "从GitHub搜索、学习多个相关仓库，并将其整合为统一可用的系统。适用于需要深度研究特定技术领域、整合多个开源项目成果、创建综合性工具集的场景。触发条件：用户要求搜索GitHub仓库、学习特定技术、整合多个项目、创建综合系统。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "developer-debugging",
+    "category": "software-development",
+    "domain": "软件开发",
+    "functions": [
+      "开发框架",
+      "调试诊断",
+      "设计系统"
+    ],
+    "description": "开发者调试完整指南：4阶段根因分析方法论、Python调试（pdb/debugpy）、Node.js调试（Chrome DevTools）、Hermes TUI调试、常见陷阱。合并了 systematic-debugging。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "adr-review",
+    "category": "adr-review",
+    "domain": "adr-review",
+    "functions": [
+      "代码质量",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Review code changes against accepted ADRs for compliance violations",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "dspy",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "DSPy: declarative LM programs, auto-optimize prompts, RAG.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "trl-fine-tuning",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "搜索",
+      "自动化",
+      "社交"
+    ],
+    "description": "Fine-tune LLMs using reinforcement learning with TRL - SFT for instruction tuning, DPO for preference alignment, PPO/GRP",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "grpo-rl-training",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "peft",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "axolotl",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Expert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, multimodal",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "pytorch-fsdp",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Expert guidance for Fully Sharded Data Parallel training with PyTorch FSDP - parameter sharding, mixed precision, CPU of",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "unsloth",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Expert guidance for fast fine-tuning with Unsloth - 2-5x faster training, 50-80% less memory, LoRA/QLoRA optimization",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "mlops-toolkit",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "MLOps toolkit: LLM inference, serving, evaluation, experiment tracking, and HuggingFace Hub operations.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "audiocraft",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "segment-anything",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "SAM: zero-shot image segmentation via points, boxes, masks.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "clip",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "OpenAI's model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-mo",
+    "triggers": [
+      "**"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "stable-diffusion",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "搜索"
+    ],
+    "description": "State-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers. Use when generating im",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "whisper",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "OpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and lan",
+    "triggers": [
+      "**"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "modal",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure ma",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "guidance",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "搜索"
+    ],
+    "description": "Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and bu",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "gguf",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models on consumer hardware, ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "vllm",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "vLLM: high-throughput LLM serving, OpenAI API, quantization.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "obliteratus",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "OBLITERATUS: abliterate LLM refusals (diff-in-means).",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "outlines",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local mode",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "lm-evaluation-harness",
+    "category": "mlops",
+    "domain": "AI/ML",
+    "functions": [
+      "代码质量",
+      "设计系统",
+      "搜索"
+    ],
+    "description": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "component-refactoring",
+    "category": "component-refactoring",
+    "domain": "component-refactoring",
+    "functions": [
+      "代码质量",
+      "测试",
+      "自动化"
+    ],
+    "description": "Refactor high-complexity React components in Dify frontend. Use when `pnpm analyze-component --json` shows complexity > ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "improve-codebase-architecture",
+    "category": "improve-codebase-architecture",
+    "domain": "improve-codebase-architecture",
+    "functions": [
+      "代码质量",
+      "测试",
+      "文档"
+    ],
+    "description": "Find deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and the decisions in docs/adr/",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "code-documentation",
+    "category": "code-documentation",
+    "domain": "code-documentation",
+    "functions": [
+      "设计系统",
+      "文档",
+      "自动化"
+    ],
+    "description": "Use this skill when the user requests to generate, create, or improve documentation for code, APIs, libraries, repositor",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "agent-adaptive-coordinator",
+    "category": "agent-adaptive-coordinator",
+    "domain": "agent-adaptive-coordinator",
+    "functions": [
+      "自动化",
+      "优化"
+    ],
+    "description": "Agent skill for adaptive-coordinator - invoke with $agent-adaptive-coordinator",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "chinese-nlp-toolkit",
+    "category": "language",
+    "domain": "语言处理",
+    "functions": [
+      "文档",
+      "搜索",
+      "自动化"
+    ],
+    "description": "中文自然语言处理工具包，支持文本分析、信息提取、情感分析等",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "triage",
+    "category": "triage",
+    "domain": "triage",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "自动化"
+    ],
+    "description": "Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, rev",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "mcp-integration",
+    "category": "mcp",
+    "domain": "MCP集成",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "集成"
+    ],
+    "description": "Model Context Protocol (MCP) integration: native MCP client configuration and mcporter CLI for ad-hoc server interaction",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "prototype",
+    "category": "prototype",
+    "domain": "prototype",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Build a throwaway prototype to flesh out a design before committing to it. Routes between two branches — a runnable term",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "diagnose",
+    "category": "diagnose",
+    "domain": "diagnose",
+    "functions": [
+      "调试诊断",
+      "测试",
+      "自动化"
+    ],
+    "description": "Disciplined diagnosis loop for hard bugs and performance regressions. Reproduce → minimise → hypothesise → instrument → ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "to-issues",
+    "category": "to-issues",
+    "domain": "to-issues",
+    "functions": [
+      "自动化",
+      "生成"
+    ],
+    "description": "Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "automated-revenue-scheme",
+    "category": "autonomous-learning",
+    "domain": "自主学习",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Execute automated revenue schemes using the Minimalist Entrepreneur framework. Create automated systems for trend analys",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "account-pool-registration",
+    "category": "autonomous-learning",
+    "domain": "自主学习",
+    "functions": [
+      "自动化",
+      "生成"
+    ],
+    "description": "账号注册机和号池构建技术栈。包含浏览器反检测、验证码解决、临时邮箱、代理轮换等核心组件的使用指南。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "github-trend-monitor",
+    "category": "autonomous-learning",
+    "domain": "自主学习",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "nextjs-cache-troubleshooting",
+    "category": "nextjs-cache-troubleshooting",
+    "domain": "nextjs-cache-troubleshooting",
+    "functions": [
+      "调试诊断",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Next.js缓存问题排查和修复。当页面异常（CSS 404、JS加载失败、渲染异常但不报错）时，优先清除.next和.swc缓存。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "skill-creator",
+    "category": "skill-creator",
+    "domain": "skill-creator",
+    "functions": [
+      "测试",
+      "自动化",
+      "分析"
+    ],
+    "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a sk",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "zoom-out",
+    "category": "zoom-out",
+    "domain": "zoom-out",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Tell the agent to zoom out and give broader context or a higher-level perspective. Use when you're unfamiliar with a sec",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "agent-reach-internet",
+    "category": "internet",
+    "domain": "互联网",
+    "functions": [
+      "文档",
+      "搜索",
+      "自动化"
+    ],
+    "description": "-",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "lazygit-advanced",
+    "category": "github",
+    "domain": "代码管理",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "高级Git终端客户端lazygit使用指南",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "github-repo-deep-analysis",
+    "category": "github",
+    "domain": "代码管理",
+    "functions": [
+      "代码质量",
+      "设计系统",
+      "文档"
+    ],
+    "description": "Deep analysis of a single GitHub repository - architecture extraction, pattern recognition, and integration opportunity ",
+    "triggers": [
+      "[github, repository-analysis, architecture, code-review, pattern-extraction, deep-dive]"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "ripgrep-search",
+    "category": "github",
+    "domain": "代码管理",
+    "functions": [
+      "搜索",
+      "自动化"
+    ],
+    "description": "使用ripgrep进行高效代码搜索",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "codebase-inspection",
+    "category": "github",
+    "domain": "代码管理",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "分析"
+    ],
+    "description": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "github-workflow",
+    "category": "github",
+    "domain": "代码管理",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "设计系统"
+    ],
+    "description": "Complete GitHub workflow via gh CLI and REST API: authentication, repository management, issues, pull requests, code rev",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "write-a-skill",
+    "category": "write-a-skill",
+    "domain": "write-a-skill",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to cre",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "reverse-skill-router",
+    "category": "red-teaming",
+    "domain": "安全渗透",
+    "functions": [
+      "开发框架",
+      "测试",
+      "安全工具"
+    ],
+    "description": "18.7K星安全技能路由包 — 41条规则×42模块，覆盖APK/二进制/JS/CTF/渗透/恶意软件/固件/IoT/LLM安全/攻击链。AI自动路由+工具自举+经验进化。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "re-toolkit-mcp",
+    "category": "red-teaming",
+    "domain": "安全渗透",
+    "functions": [
+      "开发框架",
+      "调试诊断",
+      "测试"
+    ],
+    "description": "Reverse Engineering Toolkit via MCP — IDA Pro, x64dbg, Cheat Engine三合一AI驱动逆向工程工具链。覆盖反编译、动态调试、内存扫描、反调试绕过、PE分析。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "godmode",
+    "category": "red-teaming",
+    "domain": "安全渗透",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Jailbreak LLMs: G0DM0D3, Policy Puppetry, Parseltongue, ULTRAPLINIAN, LogiBreak. Prompt-level attacks + MiMo实测数据。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "ai-pentest-toolkit",
+    "category": "red-teaming",
+    "domain": "安全渗透",
+    "functions": [
+      "测试",
+      "安全工具",
+      "搜索"
+    ],
+    "description": "AI安全渗透工具集：Shannon + pentestMCP + Chrome MCP + 红队工具链。来自迷雾黑客实验室和教红队的Des的教学内容。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "vulnclaw",
+    "category": "red-teaming",
+    "domain": "安全渗透",
+    "functions": [
+      "测试",
+      "安全工具",
+      "自动化"
+    ],
+    "description": "VulnClaw: AI驱动渗透测试工具，集成Chrome DevTools MCP + Burp MCP + 50个专项Skill。中文项目，开箱即用。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "pentest-pipeline",
+    "category": "red-teaming",
+    "domain": "安全渗透",
+    "functions": [
+      "开发框架",
+      "测试",
+      "安全工具"
+    ],
+    "description": "Hermes原生渗透测试管线。基于Shannon架构，用delegate_task+MCP实现5阶段多Agent并行渗透。直接调用，不需要Shannon。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "ai-crawler-reverse-engineering",
+    "category": "ai-crawler-reverse-engineering",
+    "domain": "ai-crawler-reverse-engineering",
+    "functions": [
+      "逆向工程",
+      "自动化",
+      "分析"
+    ],
+    "description": "AI爬虫逆向工作流搭建技能。使用AI自动分析JS加密逻辑、生成爬虫代码、处理验证码、补全浏览器环境。覆盖JS逆向、签名还原、验证码处理、补环境等核心技术。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "grill-with-docs",
+    "category": "grill-with-docs",
+    "domain": "grill-with-docs",
+    "functions": [
+      "测试",
+      "设计系统",
+      "文档"
+    ],
+    "description": "Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates document",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "letter-writer",
+    "category": "letter-writer",
+    "domain": "letter-writer",
+    "functions": [
+      "文档",
+      "自动化",
+      "生成"
+    ],
+    "description": "Generate formal and informal letters including business correspondence, cover letters, and personal communications",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "nothing-design",
+    "category": "nothing-design",
+    "domain": "nothing-design",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "This skill should be used when the user explicitly says \"Nothing style\", \"Nothing design\", \"/nothing-design\", or directl",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "browser-act-skill-forge",
+    "category": "browser-act-skill-forge",
+    "domain": "browser-act-skill-forge",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Forges reusable Skill packages (SKILL.md + scripts) from website exploration via browser-act — no re-exploration later. ",
+    "triggers": [
+      "user wants a reusable Skill for any website, needs to understand a site's internal APIs, wants to re"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "writing-plans",
+    "category": "writing-plans",
+    "domain": "writing-plans",
+    "functions": [
+      "测试",
+      "设计系统",
+      "文档"
+    ],
+    "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "teach",
+    "category": "teach",
+    "domain": "teach",
+    "functions": [
+      "文档",
+      "自动化"
+    ],
+    "description": "Teach the user a new skill or concept, within this workspace.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "wechat-macos-automation",
+    "category": "automation",
+    "domain": "自动化",
+    "functions": [
+      "自动化"
+    ],
+    "description": "突破微信客户端防护的消息/文件自动化发送方案",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "xiaohuang-claude-desktop-gui",
+    "category": "automation",
+    "domain": "自动化",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "通过GUI自动化对接小黄（Claude Desktop app）的完整流程。包括激活窗口、粘贴文本、发送消息、截取回复、提取完整响应。macOS专用。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "daily-log-manager",
+    "category": "automation",
+    "domain": "自动化",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "每日日志管理技能。自动记录任务内容、沟通摘要，维护多层记忆架构。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "wechat-automation",
+    "category": "automation",
+    "domain": "自动化",
+    "functions": [
+      "调试诊断",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "WeChat automation on macOS: AppleScript GUI automation, message/file sending, and troubleshooting. Covers multiple appro",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "drission-page-automation",
+    "category": "automation",
+    "domain": "自动化",
+    "functions": [
+      "自动化"
+    ],
+    "description": "基于DrissionPage的网页自动化工具",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "browser-use-automation",
+    "category": "automation",
+    "domain": "自动化",
+    "functions": [
+      "开发框架",
+      "测试",
+      "设计系统"
+    ],
+    "description": "",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "macos-wechat-automation-v2",
+    "category": "automation",
+    "domain": "自动化",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Control WeChat on macOS through AppleScript GUI automation",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "desktop-control-advanced",
+    "category": "automation",
+    "domain": "自动化",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "生成"
+    ],
+    "description": "-",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "macos-wechat-troubleshooting",
+    "category": "automation",
+    "domain": "自动化",
+    "functions": [
+      "调试诊断",
+      "设计系统",
+      "搜索"
+    ],
+    "description": "Advanced techniques for handling WeChat automation failures on macOS",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "macos-vision-ocr",
+    "category": "automation",
+    "domain": "自动化",
+    "functions": [
+      "开发框架",
+      "自动化"
+    ],
+    "description": "Use macOS Vision framework to OCR screenshots when AI vision models are unavailable. Fallback for MiMo or other models t",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "automated-report-generation",
+    "category": "automation",
+    "domain": "自动化",
+    "functions": [
+      "自动化",
+      "生成",
+      "管理"
+    ],
+    "description": "Generate automated reports (JSON + HTML) via web scraping when terminal/execute_code are blocked. Covers cron-mode fallb",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "creative-ideation",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Generate project ideas via creative constraints.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "ascii-creative",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "自动化"
+    ],
+    "description": "ASCII art and video generation. Text-to-ASCII (pyfiglet, cowsay, boxes, image-to-ascii) and video/audio-to-colored-ASCII",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "ai-music-generation",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "分析"
+    ],
+    "description": "AI music creation: songwriting craft, Suno/LMU prompt engineering, local model generation (HeartMuLa), and audio analysi",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "baoyu-infographic",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Infographics: 21 layouts x 21 styles (信息图, 可视化).",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "ai-photo-editing",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "AI无痕P图/图片编辑：对象移除、局部替换、修复、抠图、换背景。触发：无痕P图、去水印、去路人、修图、inpainting、object removal、photo editing、图片修复。",
+    "triggers": [
+      "无痕P图、去水印、去路人、修图、inpainting、object removal、photo editing、图片修复。\""
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "claude-design",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "设计系统",
+      "动画",
+      "自动化"
+    ],
+    "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "react-bits-ui-library",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "设计系统",
+      "动画",
+      "文档"
+    ],
+    "description": "React Bits: 110+动画React组件库。文本动画/背景动效/UI组件/交互效果。用于antokex.com前端UI增强。每周自动更新。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "baoyu-comic",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "生成"
+    ],
+    "description": "Knowledge comics (知识漫画): educational, biography, tutorial.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "xiaohongshu-content-creation",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "社交"
+    ],
+    "description": "自动化小红书笔记内容创作、图片生成和可选发布。基于Auto-Redbook-Skills技能，支持8种主题和4种分页模式。使用时可自动生成符合小红书风格的笔记内容和精美卡片图片。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "pixel-art",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "设计系统",
+      "动画",
+      "自动化"
+    ],
+    "description": "Pixel art w/ era palettes (NES, Game Boy, PICO-8).",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "baoyu-article-illustrator",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Article illustrations: type × style × palette consistency.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "ai-art-workflow",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "-",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "humanizer",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Humanize text: strip AI-isms and add real voice.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "p5js",
+    "category": "creative",
+    "domain": "创意内容",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "动画"
+    ],
+    "description": "p5.js sketches: gen art, shaders, interactive, 3D.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "made-to-stick",
+    "category": "made-to-stick",
+    "domain": "made-to-stick",
+    "functions": [
+      "开发框架",
+      "动画",
+      "自动化"
+    ],
+    "description": "Craft messages that are understood, remembered, and drive action using the SUCCESs checklist (Simple, Unexpected, Concre",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "adr-verify",
+    "category": "adr-verify",
+    "domain": "adr-verify",
+    "functions": [
+      "自动化",
+      "集成"
+    ],
+    "description": "Read back adr-patterns + adr-edges namespaces, surface dangling refs / supersede cycles / status mismatches; exit 1 on c",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "github-skills-learner",
+    "category": "github-skills-learner",
+    "domain": "github-skills-learner",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "系统化搜索、分析和学习GitHub技能仓库的方法。适用于当用户要求搜索特定GitHub仓库、学习其架构、或从多个仓库中提取最佳实践时。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "follow-builders-digest",
+    "category": "follow-builders-digest",
+    "domain": "follow-builders-digest",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "AI行业日报生成技能。追踪顶级AI builders（研究者、创始人、工程师）的X/Twitter、YouTube播客、官方博客内容，自动生成精华摘要。基于Zara Zhang的follow-builders项目。需要时用于生成AI行业洞察",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "computer-use-learnings",
+    "category": "computer-use-learnings",
+    "domain": "computer-use-learnings",
+    "functions": [
+      "自动化",
+      "社交",
+      "集成"
+    ],
+    "description": "Computer Use技术深度学习成果。包含OpenAI Codex Computer Use、Agent-S、Microsoft Fara-7B、autoMate等核心框架的架构、实现原理和使用方法。需要时用于构建桌面自动化agent或",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "antokex-seo-plan",
+    "category": "seo",
+    "domain": "SEO",
+    "functions": [
+      "搜索",
+      "自动化",
+      "生成"
+    ],
+    "description": "antokex.com SEO优化计划 - 技术SEO + 内容策略 + 执行清单",
+    "triggers": [
+      "[\"AI工作流\", \"AI图片生成\", \"AI视频生成\", \"可视化编辑器\", \"AI canvas\"],"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "excel-data-processor",
+    "category": "custom",
+    "domain": "custom",
+    "functions": [
+      "代码质量",
+      "自动化",
+      "分析"
+    ],
+    "description": "-",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "caveman",
+    "category": "caveman",
+    "domain": "caveman",
+    "functions": [
+      "自动化"
+    ],
+    "description": "",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "create-pr",
+    "category": "create-pr",
+    "domain": "create-pr",
+    "functions": [
+      "代码质量",
+      "测试",
+      "设计系统"
+    ],
+    "description": "Create a pull request in the warp repository for the current branch. Use when the user mentions opening a PR, creating a",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "superpowers",
+    "category": "superpowers",
+    "domain": "superpowers",
+    "functions": [
+      "开发框架",
+      "调试诊断",
+      "测试"
+    ],
+    "description": "",
+    "triggers": [
+      "** User wants to build something. Activate before touching any code.",
+      "** Design approved. Activated by brainstorming phase."
+    ],
+    "is_routed": true
+  },
+  {
+    "name": "grill-me",
+    "category": "grill-me",
+    "domain": "grill-me",
+    "functions": [
+      "测试",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "to-prd",
+    "category": "to-prd",
+    "domain": "to-prd",
+    "functions": [
+      "自动化",
+      "社交",
+      "生成"
+    ],
+    "description": "Turn the current conversation context into a PRD and publish it to the project issue tracker. Use when user wants to cre",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "multi-role-task-execution",
+    "category": "autonomous-ai-agents",
+    "domain": "多Agent",
+    "functions": [
+      "开发框架",
+      "测试",
+      "设计系统"
+    ],
+    "description": "|",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "mandatory-consultation-protocol",
+    "category": "autonomous-ai-agents",
+    "domain": "多Agent",
+    "functions": [
+      "自动化"
+    ],
+    "description": "强制协作协议。遇到问题/卡住/反复失败时，必须找Claude.app(小黄)沟通讨论，不能盲目一个人试。非可选——违反即为执行错误。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "agent-s-xiaobai",
+    "category": "autonomous-ai-agents",
+    "domain": "多Agent",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "生成"
+    ],
+    "description": "小白(Xiao Bai) - 基于Simular Agent-S的GUI桌面自动化子agent。与小黑组成'黑白双煞'团队，强制共同完成所有任务。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "roo-code-integration",
+    "category": "autonomous-ai-agents",
+    "domain": "多Agent",
+    "functions": [
+      "代码质量",
+      "测试",
+      "自动化"
+    ],
+    "description": "|",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "agency-agents",
+    "category": "autonomous-ai-agents",
+    "domain": "多Agent",
+    "functions": [
+      "测试",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "The Agency Agents — 小黑专属的专业Agent人格系统。147个专业AI Agent角色，覆盖工程/设计/营销/测试/运维等领域。触发：用户提到特定Agent名称、多Agent协作、NEXUS管线、专业角色切换。",
+    "triggers": [
+      "用户提到特定Agent名称、多Agent协作、NEXUS管线、专业角色切换。"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "coding-agent-delegation",
+    "category": "autonomous-ai-agents",
+    "domain": "多Agent",
+    "functions": [
+      "代码质量",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Delegate coding tasks to external AI coding agents: Claude Code, Codex CLI, and OpenCode. Covers print mode, interactive",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "hermes-agent",
+    "category": "autonomous-ai-agents",
+    "domain": "多Agent",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "搜索"
+    ],
+    "description": "Configure, extend, or contribute to Hermes Agent.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "langchain-agent-fundamentals",
+    "category": "autonomous-ai-agents",
+    "domain": "多Agent",
+    "functions": [
+      "开发框架",
+      "自动化"
+    ],
+    "description": "LangChain Agent开发基础，支持构建智能AI代理系统",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "anysearch",
+    "category": "anysearch",
+    "domain": "anysearch",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Real-time search engine supporting web search, vertical domain search, parallel batch search, and URL content extraction",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "officecli",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "文档",
+      "搜索"
+    ],
+    "description": "Create, analyze, proofread, and modify Office documents (.docx, .xlsx, .pptx) using the officecli CLI tool. Use when the",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "business-proposal-and-pitch-deck",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Create investor pitch decks and business proposals (企划书/BP). Covers Sequoia/YC frameworks, SlideSage PPTX generation, of",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "docx-annotation-extractor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "文档",
+      "自动化",
+      "生成"
+    ],
+    "description": "从Word文档(.docx)中提取批注(comments)和标红文本(red text)，识别用户任务指令并执行。适用于AI日报、论文、报告等文档的批注任务自动化。触发：读取批注、提取标红、docx批注、日报任务、批注任务、标红内容。",
+    "triggers": [
+      "读取批注、提取标红、docx批注、日报任务、批注任务、标红内容。"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "academic-paper-workflow",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "文档"
+    ],
+    "description": "Academic paper workflow: AI detection rate reduction, Word document formatting, and DOCX beautification. Covers rewritin",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "linear",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "集成"
+    ],
+    "description": "Linear: manage issues, projects, teams via GraphQL + curl.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "task-completion-protocol",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化",
+      "管理"
+    ],
+    "description": "任务完成后的清理协议。防止已完成的任务在新session中被重复执行。每次任务完成时必须执行。",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "pm-skills-77",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "产品经理77个框架Skill (6.3K⭐) — PRD/用户故事/竞品分析/路线图/OKR/定价/发现/生命周期/AI产品/代理编排。让每个人都成为专业产品经理。",
+    "triggers": [],
+    "is_routed": true
+  },
+  {
+    "name": "executive-onboarding-playbook",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Plan a VP or CPO 30-60-90 day diagnostic onboarding path. Use when entering a new executive product role and avoiding pr",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "acquisition-channel-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "代码质量",
+      "测试",
+      "设计系统"
+    ],
+    "description": "Evaluate acquisition channels using unit economics, customer quality, and scalability. Use when deciding whether to scal",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "pestel-delta-monitor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化",
+      "分析"
+    ],
+    "description": "Quarterly re-scan of a prior PESTEL analysis. Use when checking which macro factors moved, which assumptions broke, and ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "problem-statement",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Write a user-centered problem statement with who is blocked, what they are trying to do, why it matters, and how it feel",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "pol-probe",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "测试"
+    ],
+    "description": "Define a Proof of Life probe to test a risky hypothesis cheaply. Use when you need harsh truth before building real prod",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "stakeholder-identification",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "搜索"
+    ],
+    "description": "Map every stakeholder before engaging anyone. Use when launching an initiative, scoping discovery, or building an engage",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "autonomous-investigation",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "The protocol behind every investigation skill. Use when AI research must proceed without you: search-plan gate, Fact/Inf",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "stakeholder-engagement-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "调试诊断",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Plan engagement for a specific stakeholder. Use when preparing an outreach, navigating resistance, or aligning a critica",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "discovery-interview-prep",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Plan customer discovery interviews with the right goal, segment, constraints, and method. Use when preparing interviews ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "skill-authoring-workflow",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "自动化",
+      "社交"
+    ],
+    "description": "Turn raw PM content into a compliant, publish-ready skill. Use when creating or updating a repo skill without breaking s",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "company-research",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "Create a company research brief with executive quotes, product strategy, and org context. Use when preparing for intervi",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "tam-sam-som-calculator",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "代码质量",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Calculate TAM, SAM, and SOM with explicit assumptions, methods, and caveats. Use when sizing a market for a product idea",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "business-health-diagnostic",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "调试诊断",
+      "代码质量",
+      "自动化"
+    ],
+    "description": "Diagnose SaaS business health across growth, retention, efficiency, and capital. Use when preparing a business review or",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "user-story-splitting",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化",
+      "管理"
+    ],
+    "description": "Break a large story or epic into smaller deliverable stories using proven split patterns. Use when backlog items are too",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "prd-development",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "文档"
+    ],
+    "description": "Build a structured PRD that connects problem, users, solution, and success criteria. Use when turning discovery notes in",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "ansoff-matrix",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "Map evidence-backed growth options across the Ansoff Matrix with risk-rated sequencing. Use when the question is where t",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "workshop-facilitation",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Facilitate workshop sessions in a one-step, multi-turn flow. Use when an interactive skill needs consistent pacing, opti",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "storyboard",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "设计系统"
+    ],
+    "description": "Create a six-frame storyboard that shows a user's journey from problem to solution. Use when you need a fast narrative f",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "intelligence-collection-disciplines",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "Run competitive research like an intelligence agency: eight collection disciplines (OSINT to MASINT), signal-to-inferenc",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "pestel-analysis",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化",
+      "社交",
+      "分析"
+    ],
+    "description": "Analyze political, economic, social, technological, environmental, and legal forces. Use when external market shifts cou",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "problem-framing-canvas",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "管理"
+    ],
+    "description": "Guide teams through MITRE's Problem Framing Canvas. Use when you need a clearer problem statement before jumping to solu",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "battle-card-builder",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "设计系统"
+    ],
+    "description": "Research and draft a competitive battle card from public evidence — every claim labeled and sourced. Use when a rep need",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "opportunity-solution-tree",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "测试",
+      "设计系统"
+    ],
+    "description": "Build an Opportunity Solution Tree from outcomes to opportunities, solutions, and tests. Use when a stakeholder request ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "eol-process",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "代码质量",
+      "自动化",
+      "社交"
+    ],
+    "description": "Run a product sunset end to end — decide, align, plan, prepare, announce, close. Use when you need the whole EOL process",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "director-readiness-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "调试诊断",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Guide the PM-to-Director transition across preparing, interviewing, landing, and recalibrating. Use when leadership scop",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "discovery-process",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Run a full discovery cycle from problem hypothesis to validated solution. Use when a team needs a structured path throug",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "epic-hypothesis",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "测试",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Frame an epic as a testable hypothesis with target user, expected outcome, and validation method. Use when defining a ma",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "finance-metrics-quickref",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Look up SaaS finance metrics, formulas, and benchmarks fast. Use when you need a quick metric definition, formula, or be",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "positioning-statement",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化",
+      "生成"
+    ],
+    "description": "Create a Geoffrey Moore-style positioning statement. Use when clarifying who you serve, what problem you solve, your cat",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "eol-internal-enablement",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Build the support FAQ, sales talking points, and objection handling teams need before an EOL announcement. Use when cust",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "finance-based-pricing-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化",
+      "分析"
+    ],
+    "description": "Evaluate pricing changes using ARPU, conversion, churn risk, NRR, and payback. Use when deciding whether a pricing move ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "altitude-horizon-framework",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "调试诊断",
+      "设计系统"
+    ],
+    "description": "Understand the PM-to-Director transition through altitude and horizon thinking. Use when diagnosing scope, time-horizon,",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "user-story-mapping",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Create a user story map that lays out activities, steps, tasks, and release slices. Use when planning a workflow, backlo",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "positioning-workshop",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Run a positioning workshop that surfaces target customer, unmet need, category, benefits, and differentiation. Use when ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "proto-persona",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Create a proto-persona from current research, market signals, and team knowledge. Use when you need a working customer p",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "jobs-to-be-done",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "动画",
+      "搜索"
+    ],
+    "description": "Uncover customer jobs, pains, and gains in a structured JTBD format. Use when clarifying unmet needs, repositioning a pr",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "lifecycle-play-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "调试诊断",
+      "测试",
+      "设计系统"
+    ],
+    "description": "Diagnose where a product sits in its lifecycle and which play fits — extend, replace, or retire. Use when a product is f",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "competitive-intel-watch",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "Scheduled delta monitoring against a prior competitive snapshot. Use when tracking competitors on a cadence: material sh",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "company-intel",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "搜索"
+    ],
+    "description": "Research a company, industry, or competitor set using web search and seven analytical lenses. Use when you need structur",
+    "triggers": [
+      "** \"Run company-intel on Helix Motion Systems\"",
+      "** \"Compare Helix Motion, Northfield Automation, and Corvid Industrial on company-intel\""
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "ai-shaped-readiness-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Assess whether your product work is AI-first or AI-shaped. Use when evaluating AI maturity and choosing the next team ca",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "organic-growth-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "管理"
+    ],
+    "description": "Identify which organic growth path to pursue — new segments, geographies, channels, or products. Use when diagnosing whe",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "user-story-mapping-workshop",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Run a user story mapping workshop with adaptive questions and a structured map output. Use when you need backbone activi",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "context-engineering-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "调试诊断",
+      "设计系统"
+    ],
+    "description": "Diagnose context stuffing vs. context engineering. Use when an AI workflow feels bloated, brittle, or hard to steer reli",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "stakeholder-mapping",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Prioritize stakeholders using two complementary grids. Use when setting engagement strategy and surfacing whose voice ne",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "derisk-measurement-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "测试",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Identify what to measure, test, or track to de-risk a product or AI idea. Use when stress-testing an idea across interna",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "feature-investment-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Evaluate feature investments using revenue impact, cost structure, ROI, and strategy. Use when deciding whether a featur",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "eol-checklist",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Build a phase-gated EOL checklist sized to the sunset, with a named owner on every item. Use when the decision to retire",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "product-sense-interview-answer",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Structure a spoken PM product-sense answer with assumptions, segmentation, pain-point prioritization, and MVP tradeoffs.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "saas-revenue-growth-metrics",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Calculate SaaS revenue, retention, and growth metrics. Use when diagnosing momentum, churn, expansion, or product-market",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "incoming-request-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Decode an incoming message into a structured breakdown separating the literal ask from the job-to-be-done. Use when a lo",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "intel-discipline-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "搜索",
+      "自动化",
+      "分析"
+    ],
+    "description": "Triage a competitive or market question into the right intelligence disciplines, cadence, and executing skill. Use when ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "voice-of-customer-miner",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "代码质量",
+      "自动化"
+    ],
+    "description": "Mine public reviews, app stores, and forums for unmet needs, competitor weaknesses, and switching triggers — with quoted",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "product-strategy-session",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Run an end-to-end product strategy session across positioning, discovery, and roadmap planning. Use when a team needs va",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "porters-five-forces",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "文档",
+      "自动化"
+    ],
+    "description": "Read an industry's structure through Porter's Five Forces with documented signals per rating, ending at the profit pool.",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "customer-journey-mapping-workshop",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "动画",
+      "自动化"
+    ],
+    "description": "Run a customer journey mapping workshop with adaptive questions and outputs. Use when you need to map stages, actions, e",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "eol-message",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Write a right-sized EOL announcement — brief notice through full phased comms — with rationale, customer impact, and nex",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "competitive-analysis-process",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "自动化",
+      "分析"
+    ],
+    "description": "Orchestrate a complete competitive analysis across six steps, from landscape to strategic direction. Use when you need t",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "swot-analysis",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "代码质量",
+      "设计系统"
+    ],
+    "description": "Build an evidence-cited SWOT of one company — yours or a competitor's — from public sources, ending with the S-O/W-T cro",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "vp-cpo-readiness-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "调试诊断",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Guide the transition to VP or CPO across preparing, interviewing, landing, and recalibrating. Use when executive product",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "user-story",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "测试",
+      "自动化",
+      "生成"
+    ],
+    "description": "Create user stories with Mike Cohn format and Gherkin acceptance criteria. Use when turning user needs into development-",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "customer-journey-map",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "动画",
+      "文档",
+      "自动化"
+    ],
+    "description": "Create a customer journey map across stages, touchpoints, actions, emotions, and metrics. Use when diagnosing a broken e",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "prioritization-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Choose a prioritization framework based on stage, team context, and stakeholder needs. Use when deciding between RICE, I",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "competitive-research-snapshot",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Research a competitive landscape with cited snapshots, a comparison matrix, and so-what implications. Use when a product",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "press-release",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Write an Amazon-style press release that defines customer value before building. Use when aligning stakeholders on a new",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "roadmap-planning",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "集成"
+    ],
+    "description": "Plan a strategic roadmap across prioritization, epic definition, stakeholder alignment, and sequencing. Use when turning",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "pol-probe-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "测试",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Select the right Proof of Life (PoL) probe based on hypothesis, risk, and resources. Use this to match the validation me",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "eol-readiness-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Run a go/no-go assessment for retiring a product or feature, then right-size the effort. Use when someone says \\\"we shou",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "agent-orchestration-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Design multi-agent AI workflows with clear boundaries, handoffs, and monitoring. Use when a complex PM task should run a",
+    "triggers": [
+      "** Agents are independent (no dependencies between them)",
+      "** Later agents need earlier agents' results"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "market-landscape-scan",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "搜索",
+      "自动化"
+    ],
+    "description": "Map a market's segments, players, substitutes, and whitespace with cited evidence. Use when entering or re-evaluating a ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "lean-ux-canvas",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "测试",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Guide teams through Lean UX Canvas v2. Use when framing a business problem, surfacing assumptions, and defining what to ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "epic-breakdown-advisor",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "管理"
+    ],
+    "description": "Break down epics into user stories with Humanizing Work split patterns. Use when a backlog item is too large to estimate",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "pricing-packaging-tracker",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Track competitor pricing and packaging as a diffable time series. Use when monitoring tiers, gates, limits, and price mo",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "pm-skill-creator",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "自动化",
+      "生成"
+    ],
+    "description": "Design a new PM skill through guided conversation. Use when you have raw content or an idea and want to shape it into a ",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "product-lifecycle-plays",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "调试诊断",
+      "自动化"
+    ],
+    "description": "Map a product's lifecycle stage and choose between extension, replacement, and retirement plays. Use when a product is m",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "recommendation-canvas",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "开发框架",
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Evaluate an AI product idea across outcomes, hypotheses, risks, and positioning. Use when deciding whether an AI solutio",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "saas-economics-efficiency-metrics",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化",
+      "优化",
+      "管理"
+    ],
+    "description": "Evaluate SaaS unit economics and capital efficiency. Use when deciding whether the business can scale efficiently or nee",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "eol-stakeholder-sequence",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "自动化"
+    ],
+    "description": "Plan who to talk to about a sunset, in what order, and what each conversation must cover. Use when an EOL decision is ma",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "ocr-and-documents",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "文档",
+      "搜索"
+    ],
+    "description": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+    "triggers": [],
+    "is_routed": false
+  },
+  {
+    "name": "bilingual-academic-correspondence",
+    "category": "productivity",
+    "domain": "产品办公",
+    "functions": [
+      "设计系统",
+      "自动化"
+    ],
+    "description": "Write bilingual (Chinese+English) emails and letters for international academic, corporate, and institutional contexts. ",
+    "triggers": [
+      "writing to professors/universities in Singapore/UK, communicating with international companies, user"
+    ],
+    "is_routed": false
+  },
+  {
+    "name": "spotify",
+    "category": "media",
+    "domain": "媒体",
+    "functions": [
+      "设计系统",
+      "搜索",
+      "自动化"
+    ],
+    "description": "Spotify: play, search, queue, manage playlists and devices.",
+    "triggers": [],
+    "is_routed": false
+  }
+]
