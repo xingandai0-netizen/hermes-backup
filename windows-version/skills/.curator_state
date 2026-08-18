@@ -1,9 +1,0 @@
-{
-  "last_report_path": "/Users/macpro/.hermes/logs/curator/20260811-213545",
-  "last_run_at": "2026-08-11T21:35:45.511516+00:00",
-  "last_run_duration_seconds": 197.821344,
-  "last_run_summary": "auto: 1 marked stale; llm: ## Human Summary\n\n### Consolidation Pass Results\n\n**3 skills archived** — all through consolidation into existing umbrellas (0 pure prunings).\n\n#### Cluster 1: Security Research (DeFi + Bounty)\n- **`malicious-project-bounty-research` → `def…\narchived 3 skill(s):\n  • malicious-project-bounty-research → defi-security-research\n  • skill-deployment-verification → hermes-agent\n  • antoken-deepseek-review-workflow — pruned (stale)\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin defi-security-research",
-  "last_run_summary_shown_at": null,
-  "paused": false,
-  "run_count": 12
-}
