@@ -188,6 +188,10 @@ your conversation context.
 - **"blocked pattern in type text"** — You tried to `type` a shell command
   that matches the dangerous-pattern block list (`curl ... | bash`,
   `sudo rm -rf`, etc.). Break the command up or reconsider.
+- **App visible in list_apps but capture returns 0 elements** — Some Electron
+  apps (e.g. OKX desktop) don't expose windows to accessibility API even
+  though the process is running. Workaround: use web version or osascript
+  to interact. Verified for OKX v3.4.0 on macOS 15.
 
 ## When NOT to use `computer_use`
 

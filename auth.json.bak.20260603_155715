@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "providers": {},
+  "active_provider": null,
+  "updated_at": "2026-06-03T07:47:10.702265+00:00",
+  "credential_pool": {
+    "custom:token-plan-cn.xiaomimimo.com": [
+      {
+        "id": "6bad83",
+        "label": "Token-plan-cn.xiaomimimo.com",
+        "auth_type": "api_key",
+        "priority": 0,
+        "source": "config:Token-plan-cn.xiaomimimo.com",
+        "last_status": null,
+        "last_status_at": null,
+        "last_error_code": null,
+        "last_error_reason": null,
+        "last_error_message": null,
+        "last_error_reset_at": null,
+        "base_url": "https://token-plan-cn.xiaomimimo.com/v1",
+        "request_count": 0,
+        "secret_fingerprint": "sha256:0b20a773b132335e"
+      },
+      {
+        "id": "c78031",
+        "label": "model_config",
+        "auth_type": "api_key",
+        "priority": 1,
+        "source": "model_config",
+        "last_status": null,
+        "last_status_at": null,
+        "last_error_code": null,
+        "last_error_reason": null,
+        "last_error_message": null,
+        "last_error_reset_at": null,
+        "base_url": "https://token-plan-cn.xiaomimimo.com/v1",
+        "request_count": 0,
+        "secret_fingerprint": "sha256:0b20a773b132335e"
+      }
+    ]
+  }
+}

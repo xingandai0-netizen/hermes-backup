@@ -186,6 +186,7 @@ curl -X POST https://api.tokex.top/v1/messages \
 | 首个 chunk 空字符串 | content=\"\" 初始化 | filter 掉空字符串 |
 | Claude CLI 拒绝模型名 | CLI 硬编码 Claude 模型 | 不用 CLI，直接 HTTP |
 | reasoning_content 显示在聊天 UI | Agent/Chat 模式未区分 | Agent 模式只显示 content，隐藏推理过程 |
+| Connection error (34s timeout, ~42K tokens context) | 中转站对大请求超时 | 上下文太大导致上游API超时，中转站比官方API超时更短。解决：开新对话(/new)减少上下文，或换更稳定的中转站。Hermes侧gateway_timeout=1800s，但中转站先断 |
 
 ## 7. OpenAI Function Calling（工具调用）
 
